@@ -31,4 +31,12 @@
 #container{
     display:flex;
     width: 90%;
+    margin:auto;
 }
+
+#container > div{
+    flex:1;
+    width: 100px;
+    height: 100px;
+}
+
