@@ -1,42 +1,40 @@
 #button1{
     background-color: red;
-    width: 50px;
-    height:50px;
 }
 
 #button2{
     background-color: royalblue;
-    width: 50px;
-    height:50px;
 }
 
 #button3{
     background-color: green;
-    width: 50px;
-    height:50px;
 }
 
 #button4{
     background-color: purple;
-    width: 50px;
-    height:50px;
 }
 
 #button5{
     background-color: yellow;
-    width: 50px;
-    height:50px;
 }
 
 #container{
     display:flex;
     width: 90%;
     margin:auto;
+    bottom:5%;
+    left:5%;
+    position: absolute;
 }
 
 #container > div{
     flex:1;
     width: 100px;
-    height: 100px;
+    height: 150px;
+    margin-right: 2%;
 }
 
+
+body{
+    background-image: url("./sounds\ for\ music\ project/backgroundmusic.jpg")
+}
